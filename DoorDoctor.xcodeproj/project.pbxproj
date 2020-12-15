@@ -40,6 +40,7 @@
 		8C4A4867243D495600F6B20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A4866243D495600F6B20E /* Assets.xcassets */; };
 		8C4A486A243D495600F6B20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A4868243D495600F6B20E /* LaunchScreen.storyboard */; };
 		8C4A487B243E661600F6B20E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A487A243E661600F6B20E /* Utilities.swift */; };
+		8CAC7113258914DF00D91C3F /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7112258914DF00D91C3F /* infoViewController.swift */; };
 		8CBF722B2582FED000E06AE1 /* infoCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */; };
 		BD5070D4244503900070DD5A /* iconAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5070D3244503900070DD5A /* iconAsset.xcassets */; };
 		BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5070D524451A1A0070DD5A /* Designable Text Field.swift */; };
@@ -93,6 +94,7 @@
 		8C4A4869243D495600F6B20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4A486B243D495600F6B20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4A487A243E661600F6B20E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8CAC7112258914DF00D91C3F /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoCustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		BD5070D3244503900070DD5A /* iconAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iconAsset.xcassets; sourceTree = "<group>"; };
 		BD5070D524451A1A0070DD5A /* Designable Text Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Designable Text Field.swift"; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 			children = (
 				BDC27FDB25890E95001310C1 /* hometabViewController.swift */,
 				BDC27FDE25890F2A001310C1 /* MapVC.swift */,
+				8CAC7112258914DF00D91C3F /* infoViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				424EA48324513A6600699E6E /* CardViewUrls.swift in Sources */,
 				BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */,
 				8C4A485B243D495500F6B20E /* AppDelegate.swift in Sources */,
+				8CAC7113258914DF00D91C3F /* infoViewController.swift in Sources */,
 				428047F924479F0700C43156 /* VideoData.swift in Sources */,
 				422824C825883A7100F9F61B /* Remedies.swift in Sources */,
 				BDC27FDF25890F2A001310C1 /* MapVC.swift in Sources */,
