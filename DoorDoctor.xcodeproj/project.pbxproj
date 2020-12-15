@@ -19,6 +19,7 @@
 		4280479E2440261500C43156 /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4280479D2440261500C43156 /* doctor.png */; };
 		428047F724479EB600C43156 /* helperR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428047F624479EB600C43156 /* helperR.swift */; };
 		428047F924479F0700C43156 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428047F824479F0700C43156 /* VideoData.swift */; };
+		6109E09F25891BD000E8CC14 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109E09E25891BD000E8CC14 /* WebViewVC.swift */; };
 		61DF0E6F2445670D00E472BA /* BacImg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E6E2445670D00E472BA /* BacImg4.jpg */; };
 		61DF0E7C244567B700E472BA /* Dr Sofia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E70244567B600E472BA /* Dr Sofia.jpg */; };
 		61DF0E7D244567B700E472BA /* Dr Rashmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E71244567B600E472BA /* Dr Rashmi.jpg */; };
@@ -78,6 +79,7 @@
 		428047F824479F0700C43156 /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
 		4682EF4FB9EA5C48775E61E0 /* Pods-DoorDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDoctor.release.xcconfig"; path = "Target Support Files/Pods-DoorDoctor/Pods-DoorDoctor.release.xcconfig"; sourceTree = "<group>"; };
 		545B0E2E564EB135AD6941B3 /* Pods-DoorDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDoctor.debug.xcconfig"; path = "Target Support Files/Pods-DoorDoctor/Pods-DoorDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		6109E09E25891BD000E8CC14 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		61DF0E6E2445670D00E472BA /* BacImg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BacImg4.jpg; sourceTree = "<group>"; };
 		61DF0E70244567B600E472BA /* Dr Sofia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr Sofia.jpg"; sourceTree = "<group>"; };
 		61DF0E71244567B600E472BA /* Dr Rashmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr Rashmi.jpg"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				8CAC71212589172600D91C3F /* BookingViewController.swift */,
 				8CAC71242589180800D91C3F /* signupViewController.swift */,
 				8CAC7127258918D700D91C3F /* doctorListViewController.swift */,
+				6109E09E25891BD000E8CC14 /* WebViewVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				422824CC25883BFF00F9F61B /* LandmarkAnnotation.swift in Sources */,
 				422824CA25883BA700F9F61B /* Landmark.swift in Sources */,
 				422824C0258836DA00F9F61B /* userAccount.swift in Sources */,
+				6109E09F25891BD000E8CC14 /* WebViewVC.swift in Sources */,
 				BDC27FDC25890E95001310C1 /* hometabViewController.swift in Sources */,
 				422824C4258837E000F9F61B /* BookingModal.swift in Sources */,
 				BDC27FD725890D4A001310C1 /* LocalManager.swift in Sources */,
