@@ -47,6 +47,7 @@
 		8CAC711F258916F400D91C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC711E258916F400D91C3F /* ViewController.swift */; };
 		8CAC71222589172600D91C3F /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC71212589172600D91C3F /* BookingViewController.swift */; };
 		8CAC71252589180800D91C3F /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC71242589180800D91C3F /* signupViewController.swift */; };
+		8CAC7128258918D700D91C3F /* doctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7127258918D700D91C3F /* doctorListViewController.swift */; };
 		8CBF722B2582FED000E06AE1 /* infoCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */; };
 		BD5070D4244503900070DD5A /* iconAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5070D3244503900070DD5A /* iconAsset.xcassets */; };
 		BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5070D524451A1A0070DD5A /* Designable Text Field.swift */; };
@@ -107,6 +108,7 @@
 		8CAC711E258916F400D91C3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CAC71212589172600D91C3F /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		8CAC71242589180800D91C3F /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		8CAC7127258918D700D91C3F /* doctorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorListViewController.swift; sourceTree = "<group>"; };
 		8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoCustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		BD5070D3244503900070DD5A /* iconAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iconAsset.xcassets; sourceTree = "<group>"; };
 		BD5070D524451A1A0070DD5A /* Designable Text Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Designable Text Field.swift"; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				8CAC711E258916F400D91C3F /* ViewController.swift */,
 				8CAC71212589172600D91C3F /* BookingViewController.swift */,
 				8CAC71242589180800D91C3F /* signupViewController.swift */,
+				8CAC7127258918D700D91C3F /* doctorListViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */,
 				8C4A485B243D495500F6B20E /* AppDelegate.swift in Sources */,
 				8CAC71222589172600D91C3F /* BookingViewController.swift in Sources */,
+				8CAC7128258918D700D91C3F /* doctorListViewController.swift in Sources */,
 				8CAC7113258914DF00D91C3F /* infoViewController.swift in Sources */,
 				428047F924479F0700C43156 /* VideoData.swift in Sources */,
 				422824C825883A7100F9F61B /* Remedies.swift in Sources */,
