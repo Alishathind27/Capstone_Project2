@@ -49,6 +49,7 @@
 		BDC27FCF25890C0D001310C1 /* appointmentBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FCE25890C0D001310C1 /* appointmentBooking.swift */; };
 		BDC27FD725890D4A001310C1 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FD625890D4A001310C1 /* LocalManager.swift */; };
 		BDC27FDC25890E95001310C1 /* hometabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FDB25890E95001310C1 /* hometabViewController.swift */; };
+		BDC27FDF25890F2A001310C1 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FDE25890F2A001310C1 /* MapVC.swift */; };
 		BDD74BE1243FE4DF00239FAD /* Cowboy - 33318.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDD74BE0243FE4DF00239FAD /* Cowboy - 33318.mp4 */; };
 		BDD74BE3243FEA8200239FAD /* Doctor - 29643.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDD74BE2243FEA8200239FAD /* Doctor - 29643.mp4 */; };
 		BDF02E98244E975000FA1CB0 /* Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDF02E97244E975000FA1CB0 /* Icon.jpeg */; };
@@ -101,6 +102,7 @@
 		BDC27FCE25890C0D001310C1 /* appointmentBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmentBooking.swift; sourceTree = "<group>"; };
 		BDC27FD625890D4A001310C1 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
 		BDC27FDB25890E95001310C1 /* hometabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hometabViewController.swift; sourceTree = "<group>"; };
+		BDC27FDE25890F2A001310C1 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		BDD74BE0243FE4DF00239FAD /* Cowboy - 33318.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cowboy - 33318.mp4"; sourceTree = "<group>"; };
 		BDD74BE2243FEA8200239FAD /* Doctor - 29643.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Doctor - 29643.mp4"; sourceTree = "<group>"; };
 		BDF02E97244E975000FA1CB0 /* Icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpeg; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				BDC27FDB25890E95001310C1 /* hometabViewController.swift */,
+				BDC27FDE25890F2A001310C1 /* MapVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				8C4A485B243D495500F6B20E /* AppDelegate.swift in Sources */,
 				428047F924479F0700C43156 /* VideoData.swift in Sources */,
 				422824C825883A7100F9F61B /* Remedies.swift in Sources */,
+				BDC27FDF25890F2A001310C1 /* MapVC.swift in Sources */,
 				8C4A4865243D495500F6B20E /* DoorDoctor.xcdatamodeld in Sources */,
 				8C4A485D243D495500F6B20E /* SceneDelegate.swift in Sources */,
 				422824C6258838D000F9F61B /* AppointmentList.swift in Sources */,
