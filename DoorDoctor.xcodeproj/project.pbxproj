@@ -47,6 +47,7 @@
 		BD57200E244A996C000A24A6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57200D244A996C000A24A6 /* CardCell.swift */; };
 		BDC27FCC25890B03001310C1 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FCB25890B03001310C1 /* customTableViewCell.swift */; };
 		BDC27FCF25890C0D001310C1 /* appointmentBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FCE25890C0D001310C1 /* appointmentBooking.swift */; };
+		BDC27FD725890D4A001310C1 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FD625890D4A001310C1 /* LocalManager.swift */; };
 		BDD74BE1243FE4DF00239FAD /* Cowboy - 33318.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDD74BE0243FE4DF00239FAD /* Cowboy - 33318.mp4 */; };
 		BDD74BE3243FEA8200239FAD /* Doctor - 29643.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDD74BE2243FEA8200239FAD /* Doctor - 29643.mp4 */; };
 		BDF02E98244E975000FA1CB0 /* Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDF02E97244E975000FA1CB0 /* Icon.jpeg */; };
@@ -97,6 +98,7 @@
 		BD57200D244A996C000A24A6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		BDC27FCB25890B03001310C1 /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 		BDC27FCE25890C0D001310C1 /* appointmentBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmentBooking.swift; sourceTree = "<group>"; };
+		BDC27FD625890D4A001310C1 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
 		BDD74BE0243FE4DF00239FAD /* Cowboy - 33318.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cowboy - 33318.mp4"; sourceTree = "<group>"; };
 		BDD74BE2243FEA8200239FAD /* Doctor - 29643.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Doctor - 29643.mp4"; sourceTree = "<group>"; };
 		BDF02E97244E975000FA1CB0 /* Icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpeg; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		8C4A4859243D495500F6B20E /* DoorDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				BDC27FD125890CA9001310C1 /* ManagersSwiftUI */,
 				422824BC2588363300F9F61B /* Model */,
 				8CBF72232582FC0A00E06AE1 /* Custom cells */,
 				4263127E244AD2A700099046 /* Videos */,
@@ -228,6 +231,14 @@
 				BDC27FCB25890B03001310C1 /* customTableViewCell.swift */,
 			);
 			path = "Custom cells";
+			sourceTree = "<group>";
+		};
+		BDC27FD125890CA9001310C1 /* ManagersSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BDC27FD625890D4A001310C1 /* LocalManager.swift */,
+			);
+			path = ManagersSwiftUI;
 			sourceTree = "<group>";
 		};
 		D5EEFD34AE2F1E7911960C8C /* Pods */ = {
@@ -393,6 +404,7 @@
 				422824CA25883BA700F9F61B /* Landmark.swift in Sources */,
 				422824C0258836DA00F9F61B /* userAccount.swift in Sources */,
 				422824C4258837E000F9F61B /* BookingModal.swift in Sources */,
+				BDC27FD725890D4A001310C1 /* LocalManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
