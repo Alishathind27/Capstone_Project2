@@ -42,6 +42,10 @@
 		8C4A487B243E661600F6B20E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A487A243E661600F6B20E /* Utilities.swift */; };
 		8CAC7113258914DF00D91C3F /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7112258914DF00D91C3F /* infoViewController.swift */; };
 		8CAC7116258915BC00D91C3F /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7115258915BC00D91C3F /* PlayVC.swift */; };
+		8CAC71192589162E00D91C3F /* RemedieTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC71182589162E00D91C3F /* RemedieTVC.swift */; };
+		8CAC711C2589167400D91C3F /* SearchRemedieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC711B2589167400D91C3F /* SearchRemedieVC.swift */; };
+		8CAC711F258916F400D91C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC711E258916F400D91C3F /* ViewController.swift */; };
+		8CAC71222589172600D91C3F /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC71212589172600D91C3F /* BookingViewController.swift */; };
 		8CBF722B2582FED000E06AE1 /* infoCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */; };
 		BD5070D4244503900070DD5A /* iconAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5070D3244503900070DD5A /* iconAsset.xcassets */; };
 		BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5070D524451A1A0070DD5A /* Designable Text Field.swift */; };
@@ -97,6 +101,10 @@
 		8C4A487A243E661600F6B20E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		8CAC7112258914DF00D91C3F /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		8CAC7115258915BC00D91C3F /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		8CAC71182589162E00D91C3F /* RemedieTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedieTVC.swift; sourceTree = "<group>"; };
+		8CAC711B2589167400D91C3F /* SearchRemedieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRemedieVC.swift; sourceTree = "<group>"; };
+		8CAC711E258916F400D91C3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CAC71212589172600D91C3F /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoCustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		BD5070D3244503900070DD5A /* iconAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iconAsset.xcassets; sourceTree = "<group>"; };
 		BD5070D524451A1A0070DD5A /* Designable Text Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Designable Text Field.swift"; sourceTree = "<group>"; };
@@ -257,6 +265,10 @@
 				BDC27FDE25890F2A001310C1 /* MapVC.swift */,
 				8CAC7112258914DF00D91C3F /* infoViewController.swift */,
 				8CAC7115258915BC00D91C3F /* PlayVC.swift */,
+				8CAC71182589162E00D91C3F /* RemedieTVC.swift */,
+				8CAC711B2589167400D91C3F /* SearchRemedieVC.swift */,
+				8CAC711E258916F400D91C3F /* ViewController.swift */,
+				8CAC71212589172600D91C3F /* BookingViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -411,9 +423,11 @@
 				424EA48324513A6600699E6E /* CardViewUrls.swift in Sources */,
 				BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */,
 				8C4A485B243D495500F6B20E /* AppDelegate.swift in Sources */,
+				8CAC71222589172600D91C3F /* BookingViewController.swift in Sources */,
 				8CAC7113258914DF00D91C3F /* infoViewController.swift in Sources */,
 				428047F924479F0700C43156 /* VideoData.swift in Sources */,
 				422824C825883A7100F9F61B /* Remedies.swift in Sources */,
+				8CAC711C2589167400D91C3F /* SearchRemedieVC.swift in Sources */,
 				BDC27FDF25890F2A001310C1 /* MapVC.swift in Sources */,
 				8C4A4865243D495500F6B20E /* DoorDoctor.xcdatamodeld in Sources */,
 				8C4A485D243D495500F6B20E /* SceneDelegate.swift in Sources */,
@@ -421,6 +435,8 @@
 				8C4A487B243E661600F6B20E /* Utilities.swift in Sources */,
 				428047F724479EB600C43156 /* helperR.swift in Sources */,
 				BD57200E244A996C000A24A6 /* CardCell.swift in Sources */,
+				8CAC711F258916F400D91C3F /* ViewController.swift in Sources */,
+				8CAC71192589162E00D91C3F /* RemedieTVC.swift in Sources */,
 				BDC27FCC25890B03001310C1 /* customTableViewCell.swift in Sources */,
 				BDC27FCF25890C0D001310C1 /* appointmentBooking.swift in Sources */,
 				422824CC25883BFF00F9F61B /* LandmarkAnnotation.swift in Sources */,
