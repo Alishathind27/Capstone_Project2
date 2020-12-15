@@ -20,6 +20,7 @@
 		428047F724479EB600C43156 /* helperR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428047F624479EB600C43156 /* helperR.swift */; };
 		428047F924479F0700C43156 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428047F824479F0700C43156 /* VideoData.swift */; };
 		6109E09F25891BD000E8CC14 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109E09E25891BD000E8CC14 /* WebViewVC.swift */; };
+		6109E0A325891CAD00E8CC14 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109E0A225891CAD00E8CC14 /* MapView.swift */; };
 		61DF0E6F2445670D00E472BA /* BacImg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E6E2445670D00E472BA /* BacImg4.jpg */; };
 		61DF0E7C244567B700E472BA /* Dr Sofia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E70244567B600E472BA /* Dr Sofia.jpg */; };
 		61DF0E7D244567B700E472BA /* Dr Rashmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E71244567B600E472BA /* Dr Rashmi.jpg */; };
@@ -80,6 +81,7 @@
 		4682EF4FB9EA5C48775E61E0 /* Pods-DoorDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDoctor.release.xcconfig"; path = "Target Support Files/Pods-DoorDoctor/Pods-DoorDoctor.release.xcconfig"; sourceTree = "<group>"; };
 		545B0E2E564EB135AD6941B3 /* Pods-DoorDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDoctor.debug.xcconfig"; path = "Target Support Files/Pods-DoorDoctor/Pods-DoorDoctor.debug.xcconfig"; sourceTree = "<group>"; };
 		6109E09E25891BD000E8CC14 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		6109E0A225891CAD00E8CC14 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		61DF0E6E2445670D00E472BA /* BacImg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BacImg4.jpg; sourceTree = "<group>"; };
 		61DF0E70244567B600E472BA /* Dr Sofia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr Sofia.jpg"; sourceTree = "<group>"; };
 		61DF0E71244567B600E472BA /* Dr Rashmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr Rashmi.jpg"; sourceTree = "<group>"; };
@@ -169,6 +171,14 @@
 			path = Videos;
 			sourceTree = "<group>";
 		};
+		6109E0A125891C3B00E8CC14 /* ViewsSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				6109E0A225891CAD00E8CC14 /* MapView.swift */,
+			);
+			path = ViewsSwiftUI;
+			sourceTree = "<group>";
+		};
 		61DF0E6D2445615A00E472BA /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +222,7 @@
 		8C4A4859243D495500F6B20E /* DoorDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				6109E0A125891C3B00E8CC14 /* ViewsSwiftUI */,
 				BDC27FDA25890E28001310C1 /* View Controllers */,
 				BDC27FD125890CA9001310C1 /* ManagersSwiftUI */,
 				422824BC2588363300F9F61B /* Models */,
@@ -450,6 +461,7 @@
 				BDC27FCC25890B03001310C1 /* customTableViewCell.swift in Sources */,
 				8CAC71252589180800D91C3F /* signupViewController.swift in Sources */,
 				BDC27FCF25890C0D001310C1 /* appointmentBooking.swift in Sources */,
+				6109E0A325891CAD00E8CC14 /* MapView.swift in Sources */,
 				422824CC25883BFF00F9F61B /* LandmarkAnnotation.swift in Sources */,
 				422824CA25883BA700F9F61B /* Landmark.swift in Sources */,
 				422824C0258836DA00F9F61B /* userAccount.swift in Sources */,
