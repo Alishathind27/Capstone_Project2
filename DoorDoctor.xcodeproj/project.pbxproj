@@ -45,6 +45,7 @@
 		BD5070D624451A1A0070DD5A /* Designable Text Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5070D524451A1A0070DD5A /* Designable Text Field.swift */; };
 		BD571F872448E492000A24A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD571F862448E492000A24A6 /* ContentView.swift */; };
 		BD57200E244A996C000A24A6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57200D244A996C000A24A6 /* CardCell.swift */; };
+		BDC27FCC25890B03001310C1 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC27FCB25890B03001310C1 /* customTableViewCell.swift */; };
 		BDD74BE1243FE4DF00239FAD /* Cowboy - 33318.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDD74BE0243FE4DF00239FAD /* Cowboy - 33318.mp4 */; };
 		BDD74BE3243FEA8200239FAD /* Doctor - 29643.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDD74BE2243FEA8200239FAD /* Doctor - 29643.mp4 */; };
 		BDF02E98244E975000FA1CB0 /* Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDF02E97244E975000FA1CB0 /* Icon.jpeg */; };
@@ -93,6 +94,7 @@
 		BD5070D524451A1A0070DD5A /* Designable Text Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Designable Text Field.swift"; sourceTree = "<group>"; };
 		BD571F862448E492000A24A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD57200D244A996C000A24A6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		BDC27FCB25890B03001310C1 /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 		BDD74BE0243FE4DF00239FAD /* Cowboy - 33318.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cowboy - 33318.mp4"; sourceTree = "<group>"; };
 		BDD74BE2243FEA8200239FAD /* Doctor - 29643.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Doctor - 29643.mp4"; sourceTree = "<group>"; };
 		BDF02E97244E975000FA1CB0 /* Icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpeg; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				8CBF722A2582FED000E06AE1 /* infoCustomCellTableViewCell.swift */,
+				BDC27FCB25890B03001310C1 /* customTableViewCell.swift */,
 			);
 			path = "Custom cells";
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				8C4A487B243E661600F6B20E /* Utilities.swift in Sources */,
 				428047F724479EB600C43156 /* helperR.swift in Sources */,
 				BD57200E244A996C000A24A6 /* CardCell.swift in Sources */,
+				BDC27FCC25890B03001310C1 /* customTableViewCell.swift in Sources */,
 				422824CC25883BFF00F9F61B /* LandmarkAnnotation.swift in Sources */,
 				422824CA25883BA700F9F61B /* Landmark.swift in Sources */,
 				422824C0258836DA00F9F61B /* userAccount.swift in Sources */,
