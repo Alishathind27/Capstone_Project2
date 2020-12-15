@@ -21,6 +21,7 @@
 		428047F924479F0700C43156 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428047F824479F0700C43156 /* VideoData.swift */; };
 		6109E09F25891BD000E8CC14 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109E09E25891BD000E8CC14 /* WebViewVC.swift */; };
 		6109E0A325891CAD00E8CC14 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109E0A225891CAD00E8CC14 /* MapView.swift */; };
+		6109E0A625891D2100E8CC14 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109E0A525891D2100E8CC14 /* PlacesListView.swift */; };
 		61DF0E6F2445670D00E472BA /* BacImg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E6E2445670D00E472BA /* BacImg4.jpg */; };
 		61DF0E7C244567B700E472BA /* Dr Sofia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E70244567B600E472BA /* Dr Sofia.jpg */; };
 		61DF0E7D244567B700E472BA /* Dr Rashmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61DF0E71244567B600E472BA /* Dr Rashmi.jpg */; };
@@ -82,6 +83,7 @@
 		545B0E2E564EB135AD6941B3 /* Pods-DoorDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDoctor.debug.xcconfig"; path = "Target Support Files/Pods-DoorDoctor/Pods-DoorDoctor.debug.xcconfig"; sourceTree = "<group>"; };
 		6109E09E25891BD000E8CC14 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		6109E0A225891CAD00E8CC14 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6109E0A525891D2100E8CC14 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
 		61DF0E6E2445670D00E472BA /* BacImg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BacImg4.jpg; sourceTree = "<group>"; };
 		61DF0E70244567B600E472BA /* Dr Sofia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr Sofia.jpg"; sourceTree = "<group>"; };
 		61DF0E71244567B600E472BA /* Dr Rashmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr Rashmi.jpg"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				6109E0A225891CAD00E8CC14 /* MapView.swift */,
+				6109E0A525891D2100E8CC14 /* PlacesListView.swift */,
 			);
 			path = ViewsSwiftUI;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6109E0A625891D2100E8CC14 /* PlacesListView.swift in Sources */,
 				8CBF722B2582FED000E06AE1 /* infoCustomCellTableViewCell.swift in Sources */,
 				BD571F872448E492000A24A6 /* ContentView.swift in Sources */,
 				8CAC7116258915BC00D91C3F /* PlayVC.swift in Sources */,
