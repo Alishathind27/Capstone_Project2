@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		422824BE2588366400F9F61B /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422824BD2588366400F9F61B /* Doctor.swift */; };
+		422824C0258836DA00F9F61B /* userAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422824BF258836DA00F9F61B /* userAccount.swift */; };
 		424EA48324513A6600699E6E /* CardViewUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EA48224513A6600699E6E /* CardViewUrls.swift */; };
 		4263127C244ABEA000099046 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4263127B244ABEA000099046 /* GoogleService-Info.plist */; };
 		4280479E2440261500C43156 /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4280479D2440261500C43156 /* doctor.png */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		422824BD2588366400F9F61B /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		422824BF258836DA00F9F61B /* userAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userAccount.swift; sourceTree = "<group>"; };
 		424EA48224513A6600699E6E /* CardViewUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewUrls.swift; sourceTree = "<group>"; };
 		4263127B244ABEA000099046 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4280479D2440261500C43156 /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor.png; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				422824BD2588366400F9F61B /* Doctor.swift */,
+				422824BF258836DA00F9F61B /* userAccount.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				8C4A487B243E661600F6B20E /* Utilities.swift in Sources */,
 				428047F724479EB600C43156 /* helperR.swift in Sources */,
 				BD57200E244A996C000A24A6 /* CardCell.swift in Sources */,
+				422824C0258836DA00F9F61B /* userAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
