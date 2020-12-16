@@ -2,13 +2,13 @@
 //  hometabViewController.swift
 //  DoorDoctor
 //
-//  Created by Amanpreet Kaur on 2020-12-15.
+//  Created by Evneet kaur on 2020-12-16.
 //  Copyright © 2020 Kulvir Dhillon. All rights reserved.
 //
 
 import UIKit
 
-class hometabViewController: UIViewController {
+class hometabViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +17,10 @@ class hometabViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-            self.navigationController?.setNavigationBarHidden(false, animated: animated)
-        }
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+
     /*
     // MARK: - Navigation
 
